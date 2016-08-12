@@ -5,6 +5,10 @@
 
 #[iOS开发－应用之间的跳转及通信](http://www.cnblogs.com/GarveyCalvin/p/4877115.html)
 
+## Update
+
+2016-08-12: 在Github的[Demo](https://github.com/GarveyCalvin/ApplicationJumpAndSentValue)上增加Mac自定义Url Scheme，可以在Safari上输入特定协议头打开应用，并传递参数) - `Objective-C`
+
 ##简介
 
 我们接下来将要实现应用程序之间的跳转及通讯。现在手机开发中，很多时候我们都需要在应用内跳转到别的应用中，这个是很常见的。为此，我们首先需要准备两个项目`ApplicationOne`和`ApplicationTwo`。([下载项目源码](https://github.com/GarveyCalvin/ApplicationJumpAndSentValue))
@@ -119,9 +123,11 @@ return false
 
 ---
 
-[iOS开发拓展篇—应用之间的跳转和数据传递](http://www.cnblogs.com/wendingding/p/3972034.html)<br>
+[iOS开发拓展篇—应用之间的跳转和数据传递](http://www.cnblogs.com/wendingding/p/3972034.html)
+
 [iOS应用程序开发之应用间的跳转](http://www.cnblogs.com/letougaozao/p/3979096.html)
 
+[在Mac和iOS中注册自定义的URL Scheme](http://cocoa.venj.me/blog/custom-url-scheme-on-mac-and-ios/)
 
 ---
 <br>
